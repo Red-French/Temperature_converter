@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="container">
+
+<!-- USER'S INPUT -->
+<span>Temperature Converter:</span>
+<div>Enter Temp: <input id="usersTemp" type="text">
+</div>
+
+<!-- RADIO BUTTON CHOICE -->
+<p>
+Convert to: 
+<input type="radio" name="radio" value="celsius" onClick="gRadioValue =this.value;">Celsius
+<input type="radio" name="radio" value="fahrenheit" onClick="gRadioValue =this.value;">Fahrenheit
+  </p>
+
+<!-- CONVERT BUTTON -->
+<div>
+  <p>
+  <input id="conversion_button" type="button" value="Convert">
+  </p>
+
+<!-- CONVERSTION OUTPUT -->
+<p>
+Your temperature converted: <div id="converted_content"></div>
+</p>
+
+</div>
+
+<!-- CLEAR INPUT AND OUTPUT AREAS -->
+<div>
+  <input id="clearButton" type="button" value="CLEAR">
+</div>
+</div>
+<script src="temp.js"></script>
+</body>
+</html>
