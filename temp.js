@@ -31,7 +31,7 @@ var usersTemp = document.getElementById("usersTemp");
 usersTemp.addEventListener("keyup", document.onkeyup = function (evt) {
   var keyCode = evt ? (evt.which ? evt.which : evt.keyCode) : event.keyCode;
   if (keyCode == 13) {
-    // console.log("ENTER KEY TRIGGERS");
+    // console.log("ENTER KEY TRIGGERS");\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     if (gRadioValue === "fahrenheit") {
       toFahrenheit();
     }
